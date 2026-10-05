@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>css bottle setting</title>
+        <style>/*容器box
+        box-sizing:預設是content-box 也可變成border-box,ins from outs: content>padding>border>margin
+         content allow set top,bottom,left,right;border allow set width,style,color
+        there's four kinds of border style:solid,dashed,dotted,double.
+        border-radius圓角矩形*/
+            #d1{
+                width:100px;
+                height :25px;
+                background-color:black ;
+                border:2px solid black;
+                border-color: red blue green white ;
+                border-width:50px 40px 50px 60px;
+                border-style:groove; 
+                padding:10px 10px 10px;
+                box-sizing:border-box;
+                border-radius: 100px ; 
+
+            }
+            #d2{
+                border:1px solid rgb(0, 0, 0);
+                height:100px;
+                width:100px;
+                display: inline-block;
+                margin:20px;
+                border-radius: 10px 50px 2px;
+            }
+            #d3{
+                border:1px solid rgb(0, 0, 0);
+                height:200px;
+                width:400px;
+                border-radius: 0% ;
+
+
+            }
+            #d4{
+                border:30px solid transparent;
+                height:50px;
+                width:0px;
+                margin:20px;
+                padding:10px;
+                background-color: aqua;
+                border-style:dashed;
+                border-color: aquamarine aqua ;
+                border-top-width: 0px;
+
+            }
+            #d40{
+                width:0px;
+                height:0px;
+                border:40px solid transparent;
+                border-top-color: lightblue;
+
+            }
+            #d5{
+                 width:100px;
+                height :25px;
+                background-color:black ;
+                border:2px solid black;
+                border-color: white white green white ;
+                border-width:50px 40px 50px 60px;
+                border-style:groove; 
+                padding:10px 10px 10px;
+                box-sizing:border-box;
+                border-radius: 0px ; 
+            }
+        </style>
+    </head>
+    <body>
+        <div id="d1">2</div>
+        <div id="d2">2</div>
+        <div id="d3"></div>
+        <hr>
+        <div id="d4"></div ><div id="d40">  </div>
+
+        <hr>
+        <div id="d5"></div><div id="d50"></div>
+        <hr>
+    </body>
+</html>
