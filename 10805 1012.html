@@ -1,0 +1,96 @@
+<html>
+<head>
+    <title>css</title>
+    <style>
+        div {
+            width:795px;
+            height: 100px;
+            margin-bottom: 10px;
+            display:inline-block;
+        }
+        #d1{/*線性漸層*/
+             background-image: linear-gradient(270deg, red,orange, yellow,green,blue,violet,purple);
+        }
+        #d2{
+            background-image: linear-gradient(90deg, red,orange, yellow,green,blue,violet,purple);
+        }
+        #d3{
+           width:100px;
+           height:100px;
+            background-image: radial-gradient(circle,red,green,blue,lightblue,black);
+        }
+        #d4{
+            background-image: conic-gradient(from 67deg,red,orange, yellow,green,blue,violet,purple,red);
+            width:500px;
+            height: 500px;
+        }
+        #d5{
+            background-image: linear-gradient(90deg,blue 40%,white 40%,white 60%,red 60%);
+        }
+        #d6{
+            background-image: repeating-linear-gradient(90deg,black 20%,white 23%);
+        }
+        #d7{
+            background-image: radial-gradient(circle,black ,white );
+        }
+        #d8{
+            background-image: conic-gradient(black ,white );
+        }
+        #d9{
+            background-image: repeating-radial-gradient(circle,black,white,black 20%,violet 23%);
+        }
+        #d10{
+            background-image: repeating-conic-gradient(black 20%,white 23%,black 20%,violet 23%);
+        }
+        @keyframes k1 {/*animation*/
+            0%{background-image: conic-gradient(from 67deg,red,orange, yellow,green,blue,violet,purple,red);}
+            5%{background-image: conic-gradient(from 76deg,red,orange, yellow,green,blue,violet,purple,red);}
+            10%{background-image: conic-gradient(from 86deg,red,orange, yellow,green,blue,violet,purple,red);}
+            15%{background-image: conic-gradient(from 95deg,red,orange, yellow,green,blue,violet,purple,red);}
+            20%{background-image: conic-gradient(from 100deg,red,orange, yellow,green,blue,violet,purple,red);}
+            25%{background-image: conic-gradient(from 110deg,red,orange, yellow,green,blue,violet,purple,red);}
+            30%{background-image: conic-gradient(from 120deg,red,orange, yellow,green,blue,violet,purple,red);}
+            35%{background-image: conic-gradient(from 130deg,red,orange, yellow,green,blue,violet,purple,red);}
+            40%{background-image: conic-gradient(from 140deg,red,orange, yellow,green,blue,violet,purple,red);}
+            45%{background-image: conic-gradient(from 150deg,red,orange, yellow,green,blue,violet,purple,red);}
+            50%{background-image: conic-gradient(from 160deg,red,orange, yellow,green,blue,violet,purple,red);}
+            55%{background-image: conic-gradient(from 170deg,red,orange, yellow,green,blue,violet,purple,red);}
+            60%{background-image: conic-gradient(from 180deg,red,orange, yellow,green,blue,violet,purple,red);}
+            65%{background-image: conic-gradient(from 200deg,red,orange, yellow,green,blue,violet,purple,red);}
+            70%{background-image: conic-gradient(from 210deg,red,orange, yellow,green,blue,violet,purple,red);}
+            75%{background-image: conic-gradient(from 230deg,red,orange, yellow,green,blue,violet,purple,red);}
+            80%{background-image: conic-gradient(from 250deg,red,orange, yellow,green,blue,violet,purple,red);}
+            85%{background-image: conic-gradient(from 270deg,red,orange, yellow,green,blue,violet,purple,red);}
+            90%{background-image: conic-gradient(from 300deg,red,orange, yellow,green,blue,violet,purple,red);}
+            95%{background-image: conic-gradient(from 330deg,red,orange, yellow,green,blue,violet,purple,red);}
+            100%{background-image: conic-gradient(from 360deg,red,orange, yellow,green,blue,violet,purple,red);}
+        }
+        #a5{
+            animation: k1 1000ms infinite linear;
+            
+        }
+    </style>    
+</head>
+ <body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <div id="d3"></div>
+    <div id="d4"></div>
+    <hr>
+    <div id="d5"></div>
+    <div id="d6"></div>
+    <div id="d7"></div>
+    <div id="d8"></div>
+    <div id="d9"></div>
+    <div id="d10"></div>
+    <div id="d11"></div>
+    <div id="d12"></div>
+    <hr>
+    <div id="a5"></div>
+    <div id="a6"></div>
+    <div id="a7"></div>
+    <div id="a8"></div>
+    <div id="a9"></div>
+    
+</body>
+</html>
